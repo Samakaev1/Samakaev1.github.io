@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ADD8E6;
+}
+body {
+  background-color: #7379E1;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(38, 162, 215);
+}
+main {
+  width: 1280px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer {
+  background-color: rgb(34, 147, 196)
+}
+.im1 {
+  width: 200px;
+  height: 200px;
+}
+.theme {
+  align-self: center;
+  font-size: 32px;
+}
+#btm {
+  border-radius: 20px;
+  background-color: yellow;
+  width: 70px;
+  cursor: pointer;
+  color: #000;
+}
+#mein {
+  visibility: hidden;
+  background-color: rgb(38, 162, 215);
+}
+.A {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+.B {color: #483D8B;}
+.C {border-bottom: 1px solid #483D8B;}
+.pered {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.text {font-size: 16px;}
+.name {font-size: 32px; text-align: center;}
+.pered {padding: 10px;}
+.uni {font-size: 32px; text-align: center; color: #FFF;}
+.universitets {
+  display: flex;
+  padding: 10px;
+  flex-direction: rows;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.ph1 {width: 300px; height: 180px;}
+.ph2 {width: 200px; height: 180px;}
+.tx {padding: 10px; color: #FFF;}
+.txt {font-size: 18px;}
+.vadjno {font-size: 22px; color: #FFF;}
+.theme p {color: #FFF;}
+.last {padding: 10px;}
